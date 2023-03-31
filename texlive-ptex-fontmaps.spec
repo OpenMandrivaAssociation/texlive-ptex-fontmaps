@@ -1,6 +1,6 @@
 Name:		texlive-ptex-fontmaps
 Version:	59711
-Release:	1
+Release:	2
 Summary:	Font maps and configuration tools for Japanese/Chinese/Korean fonts with (u)ptex
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ptex-fontmaps
