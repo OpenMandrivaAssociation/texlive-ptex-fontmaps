@@ -3,7 +3,7 @@ Version:	59711
 Release:	2
 Summary:	Font maps and configuration tools for Japanese/Chinese/Korean fonts with (u)ptex
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ptex-fontmaps
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ptex-fontmaps
 License:	pd gpl3
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ptex-fontmaps.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ptex-fontmaps.doc.r%{version}.tar.xz
