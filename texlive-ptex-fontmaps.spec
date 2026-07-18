@@ -1,5 +1,6 @@
 %global tl_name ptex-fontmaps
 %global tl_revision 65953
+%global tl_bin_links kanji-config-updmap:%{_texmfdistdir}/scripts/ptex-fontmaps/kanji-config-updmap.pl kanji-config-updmap-sys:%{_texmfdistdir}/scripts/ptex-fontmaps/kanji-config-updmap-sys.sh kanji-config-updmap-user:%{_texmfdistdir}/scripts/ptex-fontmaps/kanji-config-updmap-user.sh kanji-fontmap-creator:%{_texmfdistdir}/scripts/ptex-fontmaps/kanji-fontmap-creator.pl
 
 Name:		texlive-%{tl_name}
 Epoch:		1
@@ -16,6 +17,8 @@ BuildArch:	noarch
 BuildSystem:	texlive
 Requires:	texlive(ptex-fontmaps.bin)
 Provides:	texlive(%{tl_name}) = %{tl_revision}
+Provides:	texlive(%{tl_name}.bin) = %{tl_revision}
+Provides:	texlive-%{tl_name}.bin = %{EVRD}
 
 %description
 This package provides font maps and setup tools for Japanese, Korean,
